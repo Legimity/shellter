@@ -55,7 +55,7 @@ For future diagnosis, first check which shell/profile provides authentication an
 - Four source MCP entries were excluded: two application-specific declarations and two declarations containing literal authentication headers. No real-service MCP credentials or login caches were migrated.
 - Only one pure-text Skill was invoked on each client. Copying scripts or dependency-bearing Skills does not establish that their external tools are installed or their semantics are portable.
 - CodeBuddy's existing user MCP file was named `mcp.json`; the current adapter's `.mcp.json` path still needs native version-specific validation. This run changed only its Skills, not its MCP configuration.
-- Codex and Cursor native loading were not tested on the target. Windows, Linux ARM, other distributions and remote GitHub Actions remain unvalidated.
+- Codex and Cursor native loading were not tested on the target. Windows, Linux ARM and native-client behavior on other distributions remain unvalidated. Automated package/build results are tracked separately in [GitHub Actions](https://github.com/Legimity/shellter/actions).
 - Private operation IDs, machine addresses, startup output, configuration snapshots and journals stay in ignored case artifacts. They are not included in the published-source documentation or distribution assets.
 
 The initial ad hoc source-validation tar included macOS AppleDouble metadata files, which were mistaken for tests on Linux. Those generated metadata files were removed before the clean 36-test run. The Shellter-generated application and configuration ZIPs did not contain those files.

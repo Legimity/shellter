@@ -2,6 +2,8 @@
 
 # Shellter
 
+[![CI](https://github.com/Legimity/shellter/actions/workflows/ci.yml/badge.svg)](https://github.com/Legimity/shellter/actions/workflows/ci.yml)
+
 **A portable home for your AI coding agents.**
 
 [Download](https://github.com/Legimity/shellter/releases/latest) · [Quick start](#quick-start) · [简体中文](README.zh-CN.md) · [Report an issue](https://github.com/Legimity/shellter/issues)

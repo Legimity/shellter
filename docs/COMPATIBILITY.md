@@ -17,7 +17,7 @@ A [real macOS case](REAL-MIGRATION.md) migrated 47 user Skills (112 files) from 
 
 ## Platforms and installation
 
-Checks passed on macOS and one Ubuntu 22.04.5 LTS x86_64 development machine with Node 24.21.0. The [cross-machine case](REMOTE-MIGRATION.md) covers 36 tests, typecheck/build, extracted-package migration/recovery, local web endpoints, and bounded native tclaude/CodeBuddy calls. Other Linux environments, Windows and remote GitHub Actions remain unvalidated. Source and prebuilt packages require Node.js 24. The prebuilt ZIP needs runtime dependencies installed with npm; it is not a standalone executable. Downloads are available from [GitHub Releases](https://github.com/Legimity/shellter/releases). The npm package is not published.
+Checks passed on macOS and one Ubuntu 22.04.5 LTS x86_64 development machine with Node 24.21.0. The [cross-machine case](REMOTE-MIGRATION.md) covers 36 tests, typecheck/build, extracted-package migration/recovery, local web endpoints, and bounded native tclaude/CodeBuddy calls. Other native-client/platform combinations remain unvalidated. See [GitHub Actions](https://github.com/Legimity/shellter/actions) for current automated macOS/Ubuntu build and package results; those checks do not establish native-client compatibility. Source and prebuilt packages require Node.js 24. The prebuilt ZIP needs runtime dependencies installed with npm; it is not a standalone executable. Downloads are available from [GitHub Releases](https://github.com/Legimity/shellter/releases). The npm package is not published.
 
 ## Supported boundaries
 

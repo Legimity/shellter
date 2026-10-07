@@ -2,6 +2,8 @@
 
 # Shellter
 
+[![CI](https://github.com/Legimity/shellter/actions/workflows/ci.yml/badge.svg)](https://github.com/Legimity/shellter/actions/workflows/ci.yml)
+
 **给你的 agents，一个能带走的家。**
 
 [下载](https://github.com/Legimity/shellter/releases/latest) · [快速开始](#快速开始) · [English](README.md) · [反馈问题](https://github.com/Legimity/shellter/issues)
