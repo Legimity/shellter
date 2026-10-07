@@ -1,0 +1,20 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+coverage/
+artifacts/
+*.tgz
+
+# Private local state and unfinished internal ticket drafts
+.shellter/
+.local/
+docs/ticket-drafts/
+.env*
+!.env.example
+
+# Logs, editor/OS debris, and temporary files
+*.log
+*.tmp
+.DS_Store
+.vscode/
+.idea/

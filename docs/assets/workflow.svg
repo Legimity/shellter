@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="490" viewBox="0 0 1200 490" role="img" aria-labelledby="title desc">
+<title id="title">Shellter configuration workflow</title><desc id="desc">Scan selected existing configuration into a managed source. Review and apply locally, or export a ZIP and import it on another machine. Credentials stay local; native loading and authorization are separate checks.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#53725f" stroke-width="1.5"/></marker></defs>
+<rect width="1200" height="490" rx="24" fill="#f2f5ed"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#203f32">
+<text x="48" y="54" font-size="14" letter-spacing="3">SHELLTER / A PORTABLE HOME FOR YOUR AGENTS</text>
+<text x="48" y="100" font-size="30" font-weight="700">One managed source. Two ways to move.</text>
+<g stroke="#c9d5c7" fill="#fffefa"><rect x="48" y="145" width="280" height="122" rx="14"/><rect x="458" y="145" width="280" height="122" rx="14"/><rect x="868" y="145" width="280" height="122" rx="14"/><rect x="458" y="310" width="280" height="105" rx="14"/><rect x="868" y="310" width="280" height="105" rx="14"/></g>
+<text x="72" y="181" font-size="12" letter-spacing="2" fill="#6a7b6c">01 / DISCOVER</text><text x="72" y="216" font-size="23" font-weight="700">Existing configuration</text><text x="72" y="246" font-size="15">Selected Skills and MCP declarations</text>
+<text x="482" y="181" font-size="12" letter-spacing="2" fill="#6a7b6c">02 / MANAGE</text><text x="482" y="216" font-size="23" font-weight="700">Shellter source</text><text x="482" y="246" font-size="15">Adopt only the resources you choose</text>
+<text x="892" y="181" font-size="12" letter-spacing="2" fill="#6a7b6c">03 / APPLY LOCALLY</text><text x="892" y="216" font-size="23" font-weight="700">Target configurations</text><text x="892" y="246" font-size="15">Review → approve → apply / recover</text>
+<g stroke="#53725f" stroke-width="2" fill="none" marker-end="url(#arrow)"><path d="M328 206H446"/><path d="M738 206H856"/><path d="M598 267V298"/><path d="M738 362H856"/></g>
+<text x="359" y="194" font-size="13">Scan</text><text x="769" y="194" font-size="13">Preview</text>
+<text x="482" y="347" font-size="21" font-weight="700">Portable ZIP</text><text x="482" y="379" font-size="15">Export selected config and text files</text>
+<text x="892" y="347" font-size="21" font-weight="700">Another machine</text><text x="892" y="379" font-size="15">Import → map → review → apply</text>
+<text x="774" y="350" font-size="13">Transfer</text>
+<text x="48" y="459" font-size="15" fill="#657969">Credentials stay local. Native loading and authorization need separate verification.</text>
+</g></svg>

@@ -1,0 +1,57 @@
+{
+  "name": "shellter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Move Skills and MCP configurations between coding agents and machines",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "bin": {
+    "shellter": "dist/cli.js"
+  },
+  "scripts": {
+    "dev": "npm run build && node dist/cli.js serve",
+    "cli": "node --import tsx src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "vite build && esbuild src/cli.ts --bundle --platform=node --target=node24 --format=esm --packages=external --outfile=dist/cli.js --banner:js='#!/usr/bin/env node'",
+    "start": "node dist/cli.js serve",
+    "format": "prettier --write src web tests *config.ts package.json tsconfig.json",
+    "demo": "npm run build && node scripts/demo.mjs",
+    "demo:walkthrough": "npm run build && node scripts/demo.mjs --walkthrough",
+    "release:prepare": "npm run build && node scripts/release.mjs",
+    "check:docs": "node scripts/check-docs.mjs"
+  },
+  "dependencies": {
+    "@decimalturn/toml-patch": "^3.3.0",
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "commander": "^14.0.3",
+    "fflate": "^0.8.3",
+    "jsonc-parser": "^3.3.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "esbuild": "^0.28.2",
+    "node": "^24.21.0",
+    "prettier": "^3.9.9",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^6.4.3",
+    "vitest": "^4.1.11"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Legimity/shellter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Legimity/shellter/issues"
+  },
+  "homepage": "https://github.com/Legimity/shellter#readme"
+}
